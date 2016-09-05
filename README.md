@@ -1,92 +1,97 @@
-# Kanan's Mabinogi Mod
-Mods for Mabinogi using JavaScript
+# Kanan + Prime
+A neat pack of modifications for Mabinogi powered by Kanan, enriched with QoL tweaks and aimed at surpassing the original client.
 
-## Instructions
-1. Download Python 3.5 (or greater) from
-[python.org](https://www.python.org/downloads/).
-2. While installing it make sure you check the box that says **Add Python 3.x to
-PATH**
-3. To make sure Python was installed correctly, open a command prompt and type
-`python --version` and you should get a response.
-4. Run the batch file `kanan.bat` as an administrator.
+## Features included:
+### cursey's Kanan
+Original kanan scripts (refer to master branch for details & credits)
 
-You can run `python kanan.py -h` for more usage information. For best results,
-run kanan before launching mabi and keep it running in the background.
+##### Unique scripts:
+* SkipCutscenesON.js & SkipCutscenesOFF.js - Skip any sort of cutscene. (Step29)
 
-## Features at a glance
-Look in the scripts directory for a full list of mods provided with kanan.
-* By default most scripts (mods) that come with kanan are enabled. To disable a
-mod go into the `./scripts/` directory and delete it, or add the name of the
-feature (BitmapFont for example) to `disabled.txt`.
-* You can attach kanan to different processes if you are running multiple
-clients. Open an administrator command prompt where `kanan.py` is located and
-run `python kanan.py -p<id>` where `id` is the process id you want to attach to.
- You can also have kanan start multiple clients by running 
-`kanan auto-start.bat` or `python kanan.py -s`.
-* You can use kanan to load dll's into mabi by modifying `DllLoader.js`. More
-details on what to do are located at the top of that file.
-* You can use kanan's data folder as if it was mabi's data folder for file based
-mods. Read `UseDataFolder.js` for more detail. Essentially this feature
-redirects mabi's data folder, to the data folder `kanan.py` is in allowing you
-to fully mod mabi without touching its folder.
-* Simple scripts can be automatically coalesced to cut down on memory usage.
-* `PatternScanSnapshot.js` automatically disassembles the locations of patterns
-used by each script for archiving and easier updating when something breaks.
-* Keep kanan running in the background and whenever you close and relaunch mabi
-kanan will automatically rerun all the scripts.
+##### Reverse-engineered scripts:
+* DefaultRangedSwap.js - Swaps the default skill used when using ranged weapons. (Blade3575's Abyss)
 
-## Known issues
-* Closing the command prompt after patches have been applied has caused crashes
-for some users. If you experience a crash immediately after closing the command
-prompt then leave it open for now.
-    * If `kanan.bat` does not stay open then something is most likely wrong with
-your python install.
+##### Modified scripts: 
+* FreeZoom.js - Free zoom in disabled, only zoom out infinite works.
+* ShowCombatPower.js - "500 (STRONG)" > "500 CP (Powerful)"
 
-## The following scripts are disabled by default
-* ClientSideDevCat.js
-* PatternScanSnapshot.js
-* LargerTTFontResize.js
+##### Disabled scripts:
+* AlwaysTransCollectMode.js
+* DontTargetNPCs.js
+* FreeIndoorCamera.js
+* HideMainTitle.js
+* HideNPCCurtains.js
+* ManaTunnelLagFix.js
+* NoLogoutPenaltyMsg.js
+* NoSkillRankUpWindow.js
+* SkipGraphicsCardMsg.js
+* WindowsAppearFaster.js
+* ZeroFogDistance.js
 
-Learn about configuring kanan on our wiki.
+### Data folder
 
-## Contributing
-Contributions are welcome. If you are contributing a patch that you aren't the
-original author of please give credits at the top of the file. If a patch has
-been added and you are the original author of it or know who is, open an issue
-so proper credits may be given (or issue a pull request).
+##### Main adjustments:
+- [Ranged skills have been recolored to green](http://i.imgur.com/y8Usjai.png), and have been placed into Hybrid which is now called Archery. 
+- [Hybrid skills have been recolored](http://i.imgur.com/Hh6pkGE.png) and re-categorized to their own skill tabs. Study: Potion Lore is now in Life, Doppleganger and Berserk are in Combat, Shockwave is now in Magic, Counter Punch is in Fighter, and Spider Shot is in Archery.
+- All skill icons received a minor shade tune-up to fit film style post shader better.
+- [Metal, Wand, Pet, Instrument and Spirit Weapon dye icons  have been remade](http://i.imgur.com/lxtx8m5.png) for easier color identification.
+- [Replaced old hairs with updated versions](http://i.imgur.com/k4KmMah.png) included in the Tir Chornail update in 2013.
+- Rock Throwing can now target enemies with Ctrl + Click.
+- Tips on loading screen have been removed.
+- Dye Ampoule (regular 5 spot RNG one) now uses the Mini Dye Ampoule icon for easier identification.
+- Removed gathering failure messages due to cringe, simplified out of resource and equipment breakage messages.
+- Shadow Wizard spam map recreated to work with recent map update.
+- Fixed "FINISH!" not appearing properly above enemy names.
+- Arc Lich is now much, much more noticeable and easier to sketch.
+- Ancients are now much more noticeable to spot.
+- Renamed the following skills: Transformation Mastery > Shapeshift, Shyllien Ecology > Ecology, Hillwen Engineering > Engineering, Rare Mineralogy > Mineralogy, Ranged Attack > Ranged Mastery.
 
-## Original patch authors
-kanan comes with more mods than are listed here. This is the list of patch 
-authors who haven't directly contributed via GitHub's pull requests.
-* Blade3575
-    * Bitmap font
-    * Elf lag
-* Step29
-    * NPC fast text
-    * One click revive
-    * Free indoor camera
-    * Hide NPC curtains
-    * Hide second title
-    * No player zoom transparency
-    * Mana tunnel lag fix
-    * No skill rank up window
-    * Windows appear faster
-    * Uncapped auto production
-    * Mini title menu (TitleOrganize)
-    * Mute commerce imp (NoImp)
-* Rydian
-    * No black bars
-    * Transformation mastery collect mode always enabled
-    * No persistent fighter chain popup
-    * Objects between camera and character do not become transparent
-    * Client side devCat title
-    * Hide main title
+##### Looting adjustments:
+- Increased the clickable size when you hold down ALT for easier looting of the following: Gold, Treasure Keys, Fine and Finest Leather, Herbs and 100's and 300's Potions.
+- Made the following items unlootable from the ground when you hold down ALT: 10's, 30's, 50's Potions, Cheap and Common Leather and Fabric, Branches, Gems, Sulfur Ore, Phoenix Feather, Bandage, Alchemy Crystals (exception: Arat), Arrow, Bolt, Magic Powder.
+The purpose of these changes is to clean the screen when you hold down ALT, now the only things that show up are important loot, all the junk is filtered away.
 
-## Thank you to all contributors!
-* QewQew
-* C0ZIEST
-* Kyralis
-* x99user
-* Aahzmandius
-* poshwosh
-* Warsen
+##### Talent Title remake:
+- Fledging Archer is now Rank F Archer, Novice Archer is now Rank E Archer ... Master Archer is now Rank 1 Archer, Grandmaster Archer is now Master Archer.
+This was done for easier progress identification and to also fit in the old skill system. When somebody turns silver, they'll be rank 9, when they're gold, they'll be rank 5, etc.
+- Mage has been renamed Wizard. Word has been around since G1, and both wizard and cleric are mages who take from the magic tab, just adding some sense here.
+- Knight renamed to Lancer.
+- Warrior renamed to Knight.
+- Fighter renamed to Martial Artist. 
+
+
+##### Sound tweaks:
+Decreased the volume of inventory opening to accommodate large amount of bags.
+Sheeps swallowed a balloon...
+Removed Edern tinks
+Removed golem 'woo' (players spam this)
+Removed Bullet Storm's gun spinning (players spam this)
+Removed Mini dragon walking stomps
+Removed bird flap
+Removed window open (To mute the noise when summoning pets)
+
+
+##### Text differences:
+Most of these are simple text tweaks to fix the UI where else it clips or just doesn't look right, remove annoying text ("You've entered the world of Mabinogi", "Critical Hit!!!", No enchant text, etc).
+It also [fixes the big text window text when using bitmap font], and [simplifies the daily effects].
+You can see the full list of changes below if you're interested.
+* [client](https://www.diffchecker.com/8k6zvkoq)
+* [interface](https://www.diffchecker.com/fuhtjgeu)
+* [standard](https://www.diffchecker.com/jhr0qr8y)
+* [layout](https://www.diffchecker.com/mrymrvii)
+* [skillinfo](https://www.diffchecker.com/342oi0mu)
+* [talentitle](https://www.diffchecker.com/hylkrgi1)
+* [title](https://www.diffchecker.com/qmswvmic)
+* [collectingform](https://www.diffchecker.com/bindzguf)
+
+##### Other tweaks included I didn't make:
+- [Talent Icon replacement](http://i.imgur.com/Fhi0lO8.png) (Source: OMJ)
+- Doll Bags loot much faster. (Source: Tiara)
+- Cutscene skips: Artifact Discovery & Erinn Martial Arts Tournament. (Source: Tiara)
+- Books in Rath Castle differentiation. (Source: Tiara)
+- Mimics differentiation. (Source: Tiara)
+- L-Rod Radar (Source: Tiara)
+- Items now appear on the ground instantly. (Source: Tiara)
+- Boss key, Room key, and Treasure key are bigger. (Source: Tiara) 
+- Theatre Mission curtain removal. (Source: Unknown)
+- Shadow Mission walls removal. (Source: Unknown)
