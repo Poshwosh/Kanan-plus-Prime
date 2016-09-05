@@ -1,4 +1,4 @@
-// Swaps the default skill used when using ranged weapons.
+// Swaps the default skill used when using ranged weapons. (Blade3575)
 
 // Reference:
 // 12 52 00 00 75 05 B8 09 52 00
