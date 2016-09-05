@@ -1,3 +1,0 @@
-ClientSideDevCat.js
-PatternScanSnapshot.js
-LargerTTFontResize.js

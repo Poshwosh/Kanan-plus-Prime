@@ -4,4 +4,3 @@
 var pattern = scan('7A 05 D9 5D 08 EB 02 DD D8 D9 45 08 D9 45 F8');
 
 patch(pattern, 0xEB); // jp
-patch(pattern.add(22), 0xEB); // jnz

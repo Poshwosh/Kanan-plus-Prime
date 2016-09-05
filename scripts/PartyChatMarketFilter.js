@@ -33,20 +33,14 @@
 var filter = [
     'b>',
     's>',
-    'b:',
-    's:',
-    'b >',
-    's >',
-    'b.',
-    's.',
-    'b/',
-    's/',
     't>',
     'tf>',
     'lf>',
     't4>',
     'l4>',
-    'trad'
+    'trad',
+    'b:',
+    's:'
 ];
 
 // Make all the filters lowercase to be case insensitive.

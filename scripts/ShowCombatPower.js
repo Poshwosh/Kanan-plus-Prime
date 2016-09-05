@@ -48,11 +48,11 @@ Interceptor.attach(createAltNameStr, {
         var entPtr = Memory.readPointer(thisPtr.add(0x90));
         var cp = Memory.readFloat(entPtr.add(0x11c));
 
-        Memory.writeUtf16String(weakestStr, cp.toFixed() + " <mini>WEAKEST </mini>");
-        Memory.writeUtf16String(weakStr, cp.toFixed() + " <mini>WEAK </mini>");
-        Memory.writeUtf16String(strongStr, cp.toFixed() + " <mini>STRONG </mini>");
-        Memory.writeUtf16String(awfulStr, cp.toFixed() + " <mini>AWFUL </mini>");
-        Memory.writeUtf16String(bossStr, cp.toFixed() + " <mini>BOSS </mini>");
+        Memory.writeUtf16String(weakestStr, cp.toFixed() + " CP (Weakest) ");
+        Memory.writeUtf16String(weakStr, cp.toFixed() + " CP (Weak) ");
+        Memory.writeUtf16String(strongStr, cp.toFixed() + " CP (Powerful) ");
+        Memory.writeUtf16String(awfulStr, cp.toFixed() + " CP (Very Powerful) ");
+        Memory.writeUtf16String(bossStr, cp.toFixed() + " CP (Boss) ");
     }
 });
 
