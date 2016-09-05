@@ -3,42 +3,42 @@ A neat pack of modifications for Mabinogi powered by Kanan, enriched with QoL tw
 
 ## Features included:
 ### cursey's Kanan
-Original kanan scripts (refer to master branch for details & credits)
+##### Original kanan scripts (refer to master branch for details & credits)
 
 ##### Unique scripts:
-* SkipCutscenesON.js & SkipCutscenesOFF.js - Skip any sort of cutscene. (Step29)
+- SkipCutscenesON.js & SkipCutscenesOFF.js - Skip any sort of cutscene. (Step29)
 
 ##### Reverse-engineered scripts:
-* DefaultRangedSwap.js - Swaps the default skill used when using ranged weapons. (Blade3575's Abyss)
+- DefaultRangedSwap.js - Swaps the default skill used when using ranged weapons. (Blade3575's Abyss)
 
 ##### Modified scripts: 
-* FreeZoom.js - Free zoom in disabled, only zoom out infinite works.
-* ShowCombatPower.js - "500 (STRONG)" > "500 CP (Powerful)"
+- FreeZoom.js - Free zoom in disabled, only zoom out infinite works.
+- ShowCombatPower.js - "500 (STRONG)" > "500 CP (Powerful)"
 
 ##### Disabled scripts:
-* AlwaysTransCollectMode.js
-* DontTargetNPCs.js
-* FreeIndoorCamera.js
-* HideMainTitle.js
-* HideNPCCurtains.js
-* ManaTunnelLagFix.js
-* NoLogoutPenaltyMsg.js
-* NoSkillRankUpWindow.js
-* SkipGraphicsCardMsg.js
-* WindowsAppearFaster.js
-* ZeroFogDistance.js
+- AlwaysTransCollectMode.js
+- DontTargetNPCs.js
+- FreeIndoorCamera.js
+- HideMainTitle.js
+- HideNPCCurtains.js
+- ManaTunnelLagFix.js
+- NoLogoutPenaltyMsg.js
+- NoSkillRankUpWindow.js
+- SkipGraphicsCardMsg.js
+- WindowsAppearFaster.js
+- ZeroFogDistance.js
 
 ### Data folder
 
 ##### Main adjustments:
 - [Ranged skills have been recolored to green](http://i.imgur.com/y8Usjai.png), and have been placed into Hybrid which is now called Archery. 
 - [Hybrid skills have been recolored](http://i.imgur.com/Hh6pkGE.png) and re-categorized to their own skill tabs. Study: Potion Lore is now in Life, Doppleganger and Berserk are in Combat, Shockwave is now in Magic, Counter Punch is in Fighter, and Spider Shot is in Archery.
-- All skill icons received a minor shade tune-up to fit film style post shader better.
-- [Metal, Wand, Pet, Instrument and Spirit Weapon dye icons  have been remade](http://i.imgur.com/lxtx8m5.png) for easier color identification.
+- All skill icons received a [minor shade tune-up](http://i.imgur.com/pOpLZs3.png) to fit film style post shader better.
+- [Cloth, Metal, Wand, Pet, Instrument and Spirit Weapon dye icons  have been remade](http://i.imgur.com/lxtx8m5.png) for easier color identification.
+- Dye Ampoule (regular 5 spot RNG one) now uses the Mini Dye Ampoule icon for easier identification.
 - [Replaced old hairs with updated versions](http://i.imgur.com/k4KmMah.png) included in the Tir Chornail update in 2013.
 - Rock Throwing can now target enemies with Ctrl + Click.
-- Tips on loading screen have been removed.
-- Dye Ampoule (regular 5 spot RNG one) now uses the Mini Dye Ampoule icon for easier identification.
+- Images and tips on loading screen have been removed to increase loading time.
 - Removed gathering failure messages due to cringe, simplified out of resource and equipment breakage messages.
 - Shadow Wizard spam map recreated to work with recent map update.
 - Fixed "FINISH!" not appearing properly above enemy names.
@@ -59,30 +59,29 @@ This was done for easier progress identification and to also fit in the old skil
 - Warrior renamed to Knight.
 - Fighter renamed to Martial Artist. 
 
-
 ##### Sound tweaks:
-Decreased the volume of inventory opening to accommodate large amount of bags.
-Sheeps swallowed a balloon...
-Removed Edern tinks
-Removed golem 'woo' (players spam this)
-Removed Bullet Storm's gun spinning (players spam this)
-Removed Mini dragon walking stomps
-Removed bird flap
-Removed window open (To mute the noise when summoning pets)
-
+-  Decreased the volume of inventory opening to accommodate large amount of bags.
+-  Sheeps swallowed a balloon...
+- Removed Edern tinks
+- Removed golem 'woo' (players spam this)
+- Removed Bullet Storm's gun spinning (players spam this)
+- Removed Mini dragon walking stomps
+- Removed bird flap
+- Removed window open (To mute the noise when summoning pets)
+- Removed pickaxe noise (Poulnabrone...)
 
 ##### Text differences:
 Most of these are simple text tweaks to fix the UI where else it clips or just doesn't look right, remove annoying text ("You've entered the world of Mabinogi", "Critical Hit!!!", No enchant text, etc).
 It also [fixes the big text window text when using bitmap font], and [simplifies the daily effects].
 You can see the full list of changes below if you're interested.
-* [client](https://www.diffchecker.com/8k6zvkoq)
-* [interface](https://www.diffchecker.com/fuhtjgeu)
-* [standard](https://www.diffchecker.com/jhr0qr8y)
-* [layout](https://www.diffchecker.com/mrymrvii)
-* [skillinfo](https://www.diffchecker.com/342oi0mu)
-* [talentitle](https://www.diffchecker.com/hylkrgi1)
-* [title](https://www.diffchecker.com/qmswvmic)
-* [collectingform](https://www.diffchecker.com/bindzguf)
+- [client](https://www.diffchecker.com/8k6zvkoq)
+- [interface](https://www.diffchecker.com/fuhtjgeu)
+- [standard](https://www.diffchecker.com/jhr0qr8y)
+- [layout](https://www.diffchecker.com/mrymrvii)
+- [skillinfo](https://www.diffchecker.com/342oi0mu)
+- [talentitle](https://www.diffchecker.com/hylkrgi1)
+- [title](https://www.diffchecker.com/qmswvmic)
+- [collectingform](https://www.diffchecker.com/bindzguf)
 
 ##### Other tweaks included I didn't make:
 - [Talent Icon replacement](http://i.imgur.com/Fhi0lO8.png) (Source: OMJ)
