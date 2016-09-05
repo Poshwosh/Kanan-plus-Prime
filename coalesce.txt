@@ -14,10 +14,13 @@ FreeZoom.js
 HideMainTitle.js
 HideNPCCurtains.js
 HideSecondTitle.js
+HotkeyAnyItem.js
 IgnoreTranslucency.js
 ManaTunnelLagFix.js
+MiniTitleMenu.js
 MinuteClock.js
 MoveToSameChannel.js
+MuteCommerceImp.js
 NoBlackBars.js
 NoBrownieRequired.js
 NoChannelMoveDescription.js
@@ -28,9 +31,12 @@ NoPlayerZoomTransparency.js
 NoSkillRankUpWindow.js
 NPCFastText.js
 OneClickRevive.js
+RemoveDungeonFog.js
 RemoveScreenShake.js
 SecondTimer.js
 ShowDeadlyHP.js
 ShowItemTradePrice.js
+UncapAutoProduction.js
+ViewNPCEquipment.js
 WindowsAppearFaster.js
 ZeroFogDistance.js

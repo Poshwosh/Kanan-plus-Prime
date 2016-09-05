@@ -21,6 +21,8 @@ feature (BitmapFont for example) to `disabled.txt`.
 * You can attach kanan to different processes if you are running multiple
 clients. Open an administrator command prompt where `kanan.py` is located and
 run `python kanan.py -p<id>` where `id` is the process id you want to attach to.
+ You can also have kanan start multiple clients by running 
+`kanan auto-start.bat` or `python kanan.py -s`.
 * You can use kanan to load dll's into mabi by modifying `DllLoader.js`. More
 details on what to do are located at the top of that file.
 * You can use kanan's data folder as if it was mabi's data folder for file based
@@ -54,6 +56,8 @@ been added and you are the original author of it or know who is, open an issue
 so proper credits may be given (or issue a pull request).
 
 ## Original patch authors
+kanan comes with more mods than are listed here. This is the list of patch 
+authors who haven't directly contributed via GitHub's pull requests.
 * Blade3575
     * Bitmap font
     * Elf lag
@@ -67,6 +71,9 @@ so proper credits may be given (or issue a pull request).
     * Mana tunnel lag fix
     * No skill rank up window
     * Windows appear faster
+    * Uncapped auto production
+    * Mini title menu (TitleOrganize)
+    * Mute commerce imp (NoImp)
 * Rydian
     * No black bars
     * Transformation mastery collect mode always enabled
@@ -81,3 +88,5 @@ so proper credits may be given (or issue a pull request).
 * Kyralis
 * x99user
 * Aahzmandius
+* poshwosh
+* Warsen
