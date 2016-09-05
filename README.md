@@ -6,10 +6,9 @@ A neat pack of modifications for Mabinogi powered by Kanan, enriched with QoL tw
 ##### Original kanan scripts (refer to master branch for details & credits)
 
 ##### Unique scripts:
-- SkipCutscenesON.js & SkipCutscenesOFF.js - Skip any sort of cutscene. (Step29)
-
-##### Reverse-engineered scripts:
-- DefaultRangedSwap.js - Swaps the default skill used when using ranged weapons. (Blade3575's Abyss)
+- SkipCutscenesON.js & SkipCutscenesOFF.js - Automatically skip any sort of cutscene. (Step29)
+- DefaultRangedSwap.js - Swaps the default skill used when using ranged weapons. (Blade3575)
+- PartyToHousingBoard.js - Instead of party board functioning as intended, it will open up the housing board instead. (Blade3575)
 
 ##### Modified scripts: 
 - FreeZoom.js - Free zoom in disabled, only zoom out infinite works.
@@ -94,3 +93,6 @@ You can see the full list of changes below if you're interested.
 - Boss key, Room key, and Treasure key are bigger. (Source: Tiara) 
 - Theatre Mission curtain removal. (Source: Unknown)
 - Shadow Mission walls removal. (Source: Unknown)
+
+## Disclaimer
+Please do not link this fork to MabiMods.net, or refer kanan master issues here, all of these scripts are NOT permitted in either of those locations.
