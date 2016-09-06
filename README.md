@@ -6,7 +6,7 @@ A neat pack of modifications for Mabinogi powered by Kanan, enriched with QoL tw
 ##### Original kanan scripts (refer to master branch for details & credits)
 
 ##### Unique scripts:
-- SkipCutscenesON.js & SkipCutscenesOFF.js - Automatically skip any sort of cutscene. (Step29)
+- SkipCutscenes.js - Automatically skip any sort of cutscene. (Blade3575)
 - DefaultRangedSwap.js - Swaps the default skill used when using ranged weapons. (Blade3575)
 - PartyToHousingBoard.js - Instead of party board functioning as intended, it will open up the housing board instead. (Blade3575)
 - CancelLanceCounter.js - Allows Lance Counter to be cancelled where else it shouldn't. (Blade3575)
@@ -101,3 +101,7 @@ You can see the full list of changes below if you're interested.
 
 ## Disclaimer
 Please do not link this fork to MabiMods.net, or refer kanan master issues here, all of these scripts are NOT permitted in either of those locations.
+
+You may use, share and republish any of the data folder modifications.
+
+You may use the unique script, but you may NOT share or republish them on MabiMods. Again, not allowed.
