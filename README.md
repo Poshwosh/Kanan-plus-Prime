@@ -2,7 +2,7 @@
 A neat pack of modifications for Mabinogi NA r234 powered by Kanan, enriched with QoL tweaks and aimed at surpassing the original client.
 
 ## Features included:
-### [cursey's Kanan](https://github.com/cursey/kanan)
+### [Cursey's Kanan](https://github.com/cursey/kanan)
 ##### [Original kanan scripts](https://github.com/cursey/kanan/tree/master/scripts) (refer to master branch for details & [credits](https://github.com/cursey/kanan#original-patch-authors))
 
 ##### Unique scripts:
@@ -37,7 +37,7 @@ A neat pack of modifications for Mabinogi NA r234 powered by Kanan, enriched wit
 - WindowsAppearFaster.js
 - ZeroFogDistance.js
 
-### Data folder
+### Poshwosh's Prime
 
 ##### Main adjustments:
 - [Ranged skills have been recolored to green](http://i.imgur.com/y8Usjai.png), and have been placed into Hybrid which is now called Archery. 
@@ -105,6 +105,9 @@ You can see the full list of changes below if you're interested.
 - Shadow Mission walls removal. (Source: Unknown)
 
 ## Disclaimer
+
+This pack and its custom content is not associated to be with cursey, it only makes use of kanan as any other pack or fork could.
+
 Please do not link this fork to MabiMods.net, or refer kanan master issues here, all of these scripts are NOT permitted in either of those locations.
 
 You may use, share and republish any of the data folder modifications.
