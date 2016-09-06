@@ -2,10 +2,12 @@
 A neat pack of modifications for Mabinogi powered by Kanan, enriched with QoL tweaks and aimed at surpassing the original client.
 
 ## Features included:
-### cursey's Kanan
-##### Original kanan scripts (refer to master branch for details & credits)
+### [cursey's Kanan](https://github.com/cursey/kanan)
+##### Original kanan scripts ([refer to master branch](https://github.com/cursey/kanan/tree/master/scripts) for details & [credits](https://github.com/cursey/kanan#original-patch-authors))
 
 ##### Unique scripts:
+- (Private)PauseFlashyDyes.js - Breaks the flashy dye tick, causing them to pause. (Step29)
+- (Private)DisableSunGlare.js - Disable glare when looking at the sun. (Step29)
 - (Private)SkipCutscenes.js - Automatically skip any sort of cutscene. (Blade3575)
 - (Private)DefaultRangedSwap.js - Swaps the default skill used when using ranged weapons. (Blade3575)
 - (Private)PartyToHousingBoard.js - Instead of party board functioning as intended, it will open up the housing board instead. (Blade3575)
@@ -20,6 +22,8 @@ A neat pack of modifications for Mabinogi powered by Kanan, enriched with QoL tw
 - ShowCombatPower.js - "500 (STRONG)" > "500 CP (Powerful)"
 
 ##### Disabled scripts:
+- (Private)PauseFlashyDyes.js
+- (Private)DisableSunGlare.js
 - (Private)SkipCutscenes.js
 - AlwaysTransCollectMode.js
 - DontTargetNPCs.js
