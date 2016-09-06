@@ -6,20 +6,21 @@ A neat pack of modifications for Mabinogi powered by Kanan, enriched with QoL tw
 ##### Original kanan scripts (refer to master branch for details & credits)
 
 ##### Unique scripts:
-- SkipCutscenes.js - Automatically skip any sort of cutscene. (Blade3575)
-- DefaultRangedSwap.js - Swaps the default skill used when using ranged weapons. (Blade3575)
-- PartyToHousingBoard.js - Instead of party board functioning as intended, it will open up the housing board instead. (Blade3575)
-- CancelLanceCounter.js - Allows Lance Counter to be cancelled where else it shouldn't. (Blade3575)
-- DisableAltEnter.js Disables the ALT + Enter shortcut which enables full-screen mode. (Blade3575)
-- HideBarehandMessages.js - Disables barehand weapon warning messages when attempting to attack with tools. (Blade3575)
-- RemoveLandingRestriction.js - Remove the minimum 15 height restriction when landing a flying mount. (Blade3575)
-- TargetRestingEnemies.js - Allows you to target enemies that are in resting position such as mimics, books and golems. (Blade3575)
+- (Private)SkipCutscenes.js - Automatically skip any sort of cutscene. (Blade3575)
+- (Private)DefaultRangedSwap.js - Swaps the default skill used when using ranged weapons. (Blade3575)
+- (Private)PartyToHousingBoard.js - Instead of party board functioning as intended, it will open up the housing board instead. (Blade3575)
+- (Private)CancelLanceCounter.js - Allows Lance Counter to be cancelled where else it shouldn't. (Blade3575)
+- (Private)DisableAltEnter.js Disables the ALT + Enter shortcut which enables full-screen mode. (Blade3575)
+- (Private)HideBarehandMessages.js - Disables barehand weapon warning messages when attempting to attack with tools. (Blade3575)
+- (Private)RemoveLandingRestriction.js - Remove the minimum 15 height restriction when landing a flying mount. (Blade3575)
+- (Private)TargetRestingEnemies.js - Allows you to target enemies that are in resting position such as mimics, books and golems. (Blade3575)
 
 ##### Modified scripts: 
 - FreeZoom.js - Free zoom in disabled, only zoom out infinite works.
 - ShowCombatPower.js - "500 (STRONG)" > "500 CP (Powerful)"
 
 ##### Disabled scripts:
+- (Private)SkipCutscenes.js
 - AlwaysTransCollectMode.js
 - DontTargetNPCs.js
 - FreeIndoorCamera.js
