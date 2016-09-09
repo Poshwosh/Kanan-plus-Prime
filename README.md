@@ -5,17 +5,6 @@ A neat pack of modifications for Mabinogi NA r234 powered by kanan, enriched wit
 ### [cursey's Kanan](https://github.com/cursey/kanan)
 ##### [Original kanan scripts](https://github.com/cursey/kanan/tree/master/scripts) (refer to master branch for details & [credits](https://github.com/cursey/kanan#original-patch-authors))
 
-##### Unique scripts:
-- (Private)PauseFlashyDyes.js - Breaks the flashy dye tick, causing them to pause. (Step29)
-- (Private)DisableSunGlare.js - Disable glare when looking at the sun. (Step29)
-- (Private)SkipCutscenes.js - Automatically skip any sort of cutscene. (Blade3575)
-- (Private)PartyToHousingBoard.js - Instead of party board functioning as intended, it will open up the housing board instead. (Blade3575)
-- (Private)CancelLanceCounter.js - Allows Lance Counter to be cancelled where else it shouldn't. (Blade3575)
-- (Private)DisableAltEnter.js Disables the ALT + Enter shortcut which enables full-screen mode. (Blade3575)
-- (Private)HideBarehandMessages.js - Disables barehand weapon warning messages when attempting to attack with tools. (Blade3575)
-- (Private)RemoveLandingRestriction.js - Remove the minimum 15 height restriction when landing a flying mount. (Blade3575)
-- (Private)TargetRestingEnemies.js - Allows you to target enemies that are in resting position such as mimics, books and golems. (Blade3575)
-
 ##### Modified scripts: 
 - RangedAttackSwap.js - Now includes all ranged skills.
 - FreeZoom.js - Free zoom in disabled, only zoom out infinite works.
