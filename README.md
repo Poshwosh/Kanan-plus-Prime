@@ -101,8 +101,4 @@ You can see the full list of changes below if you're interested.
 
 This pack and its custom content is not associated with cursey, it only makes use of kanan as any other pack or fork could.
 
-Please do not link this fork to MabiMods.net, or refer kanan master issues here, all of these scripts are NOT permitted in either of those locations.
-
-You may use, share and republish any of the data folder modifications.
-
-You may use the unique scripts, but you may NOT share or republish them on MabiMods. Again, they do not allow these there.
+You may use, share and republish any of the data folder modifications. Check the license file for more information.
