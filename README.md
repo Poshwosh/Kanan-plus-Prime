@@ -11,9 +11,6 @@ A neat pack of modifications for Mabinogi NA r234 powered by kanan, enriched wit
 - ShowCombatPower.js - "500 (STRONG)" > "500 CP (Powerful)"
 
 ##### Disabled scripts (you can re-enable them if you like):
-- (Private)PauseFlashyDyes.js
-- (Private)DisableSunGlare.js
-- (Private)SkipCutscenes.js
 - HideObjects.js
 - LargerTTFontResize.js
 - ClientSideDevCat.js
