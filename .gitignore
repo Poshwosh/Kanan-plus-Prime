@@ -1,1 +1,5 @@
 /output/disasm.txt
+.gitignore
+coalesce.txt
+delayed.txt
+disabled.txt
