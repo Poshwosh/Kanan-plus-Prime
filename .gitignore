@@ -1,4 +1,6 @@
 /output/disasm.txt
+/scripts/Private
+/scripts/Test
 .gitignore
 coalesce.txt
 delayed.txt
